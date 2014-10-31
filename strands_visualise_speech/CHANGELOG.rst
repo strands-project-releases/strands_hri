@@ -2,6 +2,12 @@
 Changelog for package strands_visualise_speech
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.2 (2014-10-31)
+------------------
+* Added code for pulseaudio directly
+* Removed submodule
+* Contributors: Christian Dondrup
+
 0.0.1 (2014-10-31)
 ------------------
 * Fixing install process and launch file
