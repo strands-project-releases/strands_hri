@@ -2,6 +2,9 @@
 Changelog for package strands_hri_launch
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.2 (2014-10-31)
+------------------
+
 0.0.1 (2014-10-31)
 ------------------
 * Fixing install process and launch file
