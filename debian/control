@@ -1,0 +1,12 @@
+Source: ros-hydro-strands-simple-follow-me
+Section: misc
+Priority: extra
+Maintainer: Christian Dondrup <cdondrup@lincoln.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-actionlib, ros-hydro-bayes-people-tracker, ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-move-base-msgs, ros-hydro-roscpp, ros-hydro-tf
+Homepage: https://github.com/strands-project/strands_hri
+Standards-Version: 3.9.2
+
+Package: ros-hydro-strands-simple-follow-me
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib, ros-hydro-bayes-people-tracker, ros-hydro-geometry-msgs, ros-hydro-move-base-msgs, ros-hydro-roscpp, ros-hydro-tf
+Description: The strands_simple_follow_me package
