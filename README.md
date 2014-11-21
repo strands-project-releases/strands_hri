@@ -1,3 +1,4 @@
-## HRI launch package
+strands_hri
+===========
 
-Currently, this package only contains one launch file for the speech system. See strands_hri_utils README for detailed description.
+all the basic HRI packages we are going to use
