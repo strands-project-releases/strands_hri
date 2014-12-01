@@ -1,0 +1,12 @@
+Source: ros-hydro-strands-human-aware-navigation
+Section: misc
+Priority: extra
+Maintainer: Christian Dondrup <cdondrup@lincoln.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-actionlib, ros-hydro-actionlib-msgs, ros-hydro-bayes-people-tracker, ros-hydro-catkin, ros-hydro-dynamic-reconfigure, ros-hydro-geometry-msgs, ros-hydro-message-filters, ros-hydro-move-base-msgs, ros-hydro-roscpp, ros-hydro-rospy, ros-hydro-strands-gazing
+Homepage: https://github.com/strands-project/strands_hri
+Standards-Version: 3.9.2
+
+Package: ros-hydro-strands-human-aware-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib, ros-hydro-actionlib-msgs, ros-hydro-bayes-people-tracker, ros-hydro-dynamic-reconfigure, ros-hydro-geometry-msgs, ros-hydro-message-filters, ros-hydro-move-base-msgs, ros-hydro-roscpp, ros-hydro-rospy, ros-hydro-strands-gazing
+Description: The strands_human_aware_velocity package
