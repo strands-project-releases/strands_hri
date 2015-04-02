@@ -1,0 +1,12 @@
+Source: ros-indigo-bellbot-action-server
+Section: misc
+Priority: extra
+Maintainer: Lars Kunze <l.kunze@cs.bham.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-catkin, ros-indigo-genmsg, ros-indigo-message-generation, ros-indigo-rospy, ros-indigo-smach, ros-indigo-smach-ros
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-bellbot-action-server
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-message-runtime, ros-indigo-rospy, ros-indigo-smach, ros-indigo-smach-ros, ros-indigo-strands-executive-msgs
+Description: The bellbot_action_server package
