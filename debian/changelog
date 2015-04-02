@@ -1,0 +1,52 @@
+ros-indigo-bellbot-scheduler (0.0.8-0trusty) trusty; urgency=high
+
+  * bellbot_scheduler preparing for release 0.0.7
+  * fixing CMakeLists.txt for #92 <https://github.com/strands-project/strands_hri/issues/92>
+  * creeating dir
+  * Contributors: Jaime Pulido Fentanes, Marc Hanheide, Yiannis Gatsoulis
+
+ -- Rares Ambrus <raambrus@kth.se>  Thu, 02 Apr 2015 00:00:00 -0000
+
+ros-indigo-bellbot-scheduler (0.0.7-0trusty) trusty; urgency=high
+
+
+
+ -- Rares Ambrus <raambrus@kth.se>  Mon, 01 Dec 2014 00:00:00 -0000
+
+ros-indigo-bellbot-scheduler (0.0.6-0trusty) trusty; urgency=high
+
+
+
+ -- Rares Ambrus <raambrus@kth.se>  Fri, 21 Nov 2014 00:00:00 -0000
+
+ros-indigo-bellbot-scheduler (0.0.5-0trusty) trusty; urgency=high
+
+
+
+ -- Rares Ambrus <raambrus@kth.se>  Tue, 11 Nov 2014 14:00:00 -0000
+
+ros-indigo-bellbot-scheduler (0.0.4-0trusty) trusty; urgency=high
+
+
+
+ -- Rares Ambrus <raambrus@kth.se>  Tue, 11 Nov 2014 12:20:00 -0000
+
+ros-indigo-bellbot-scheduler (0.0.3-0trusty) trusty; urgency=high
+
+
+
+ -- Rares Ambrus <raambrus@kth.se>  Thu, 06 Nov 2014 00:00:00 -0000
+
+ros-indigo-bellbot-scheduler (0.0.2-0trusty) trusty; urgency=high
+
+
+
+ -- Rares Ambrus <raambrus@kth.se>  Fri, 31 Oct 2014 18:55:00 -0000
+
+ros-indigo-bellbot-scheduler (0.0.1-0trusty) trusty; urgency=high
+
+
+
+ -- Rares Ambrus <raambrus@kth.se>  Fri, 31 Oct 2014 17:17:00 -0000
+
+
