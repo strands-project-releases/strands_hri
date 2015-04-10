@@ -1,0 +1,61 @@
+ros-indigo-strands-visualise-speech (0.0.9-0trusty) trusty; urgency=high
+
+
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Fri, 10 Apr 2015 00:00:00 -0000
+
+ros-indigo-strands-visualise-speech (0.0.7-0trusty) trusty; urgency=high
+
+
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Mon, 01 Dec 2014 00:00:00 -0000
+
+ros-indigo-strands-visualise-speech (0.0.6-0trusty) trusty; urgency=high
+
+
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Fri, 21 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-visualise-speech (0.0.5-0trusty) trusty; urgency=high
+
+
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Tue, 11 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-visualise-speech (0.0.3-0trusty) trusty; urgency=high
+
+
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Thu, 06 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-visualise-speech (0.0.2-0trusty) trusty; urgency=high
+
+  * Added code for pulseaudio directly
+  * Removed submodule
+  * Contributors: Christian Dondrup
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Fri, 31 Oct 2014 00:00:00 -0000
+
+ros-indigo-strands-visualise-speech (0.0.1-0trusty) trusty; urgency=high
+
+  * Fixing install process and launch file
+    Preparing for release once strands_ui is released.
+  * Corrected a merge artifact.
+  * Merge branch 'hydro-devel' into release
+    Conflicts:
+    strands_hri_utils/scripts/set_voice.py
+    strands_visualise_speech/scripts/visual_speech.py
+  * Move VisualSpeech.action into strands_visualise_speech package
+  * Moved visual_speech script into strands_visualise_speech package
+  * Prepared strands_visualise_speech for release.
+  * Update README.md
+    Added warning.
+  * Update README.md
+    Added usage and troubleshooting info.
+  * Stub readme's
+  * Renamed package
+  * Contributors: Christian Dondrup
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Fri, 31 Oct 2014 00:00:00 -0000
+
+
