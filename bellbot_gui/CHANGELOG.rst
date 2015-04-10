@@ -2,6 +2,12 @@
 Changelog for package bellbot_gui
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.9 (2015-04-10)
+------------------
+* adding missing dependencies
+* tiding up fixing files
+* Contributors: Jaime Pulido Fentanes
+
 0.0.8 (2015-04-02)
 ------------------
 * closes `#90 <https://github.com/strands-project/strands_hri/issues/90>`_ - preparing bellbot_gui for release 0.0.7
