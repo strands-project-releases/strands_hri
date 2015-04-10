@@ -2,6 +2,11 @@
 Changelog for package bellbot_action_server
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.9 (2015-04-10)
+------------------
+* tiding up fixing files
+* Contributors: Jaime Pulido Fentanes
+
 0.0.8 (2015-04-02)
 ------------------
 * bellbot_action_server changed to interruptible
