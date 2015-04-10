@@ -1,0 +1,12 @@
+Source: ros-indigo-strands-human-aware-navigation
+Section: misc
+Priority: extra
+Maintainer: Christian Dondrup <cdondrup@lincoln.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-bayes-people-tracker, ros-indigo-catkin, ros-indigo-dynamic-reconfigure, ros-indigo-geometry-msgs, ros-indigo-message-filters, ros-indigo-move-base-msgs, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-strands-gazing
+Homepage: https://github.com/strands-project/strands_hri
+Standards-Version: 3.9.2
+
+Package: ros-indigo-strands-human-aware-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-bayes-people-tracker, ros-indigo-dynamic-reconfigure, ros-indigo-geometry-msgs, ros-indigo-message-filters, ros-indigo-move-base-msgs, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-strands-gazing
+Description: The strands_human_aware_velocity package
