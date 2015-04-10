@@ -2,6 +2,9 @@
 Changelog for package hrsi_representation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.9 (2015-04-10)
+------------------
+
 0.0.8 (2015-04-02)
 ------------------
 * Adjusted cmake and package files
