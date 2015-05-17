@@ -1,3 +1,36 @@
+## strands_hri (indigo) - 0.0.13-0
+
+The packages in the `strands_hri` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --non-interactive -t indigo -r indigo strands_hri` on `Sun, 17 May 2015 17:00:44 -0000`
+
+These packages were released:
+- `bellbot_action_server`
+- `bellbot_gui`
+- `bellbot_scheduler`
+- `hrsi_representation`
+- `strands_gazing`
+- `strands_hri`
+- `strands_hri_launch`
+- `strands_human_aware_navigation`
+- `strands_human_following`
+- `strands_interaction_behaviours`
+- `strands_simple_follow_me`
+- `strands_visualise_speech`
+
+Version of package(s) in repository `strands_hri`:
+- upstream repository: https://github.com/strands-project/strands_hri.git
+- release repository: https://github.com/strands-project-releases/strands_hri.git
+- rosdistro version: `0.0.12-0`
+- old version: `0.0.12-0`
+- new version: `0.0.13-0`
+
+Versions of tools used:
+- bloom version: `0.5.12`
+- catkin_pkg version: `0.2.4`
+- rosdep version: `0.10.30`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## strands_hri (indigo) - 0.0.12-0
 
 The packages in the `strands_hri` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --non-interactive -t indigo -r indigo strands_hri` on `Sun, 10 May 2015 20:42:44 -0000`
