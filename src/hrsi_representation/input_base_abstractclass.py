@@ -49,10 +49,10 @@ class InputBaseAbstractclass(object):
         }
         self.qtc = None
 
-    def _request_qtc(self, qsr, world, include_missing_data=True):
+    def _request_qtc(self, qsr, world, include_missing_data=True, qsrs_for=[]):
         """reads all .qtc files from a given directory and resturns them as numpy arrays"""
 
-        qrmsg = QSRlib_Request_Message(which_qsr=qsr, input_data=world, include_missing_data=include_missing_data)
+        qrmsg = QSRlib_Request_Message(which_qsr=qsr, input_data=world, include_missing_data=include_missing_data, qsrs_for=qsrs_for)
         cln = QSRlib_ROS_Client()
         req = cln.make_ros_request_message(qrmsg)
         res = cln.request_qsrs(req)
@@ -63,11 +63,10 @@ class InputBaseAbstractclass(object):
             foo = str(t) + ": "
             for k, v in zip(out.qsrs.trace[t].qsrs.keys(), out.qsrs.trace[t].qsrs.values()):
                 foo += str(k) + ":" + str(v.qsr) + "; "
+                q = self._to_np_array(v.qsr)
                 if qsr == self.qtc_types["qtcbc"]:
-                    q = v.qsr if len(v.qsr) == 4 else np.append(v.qsr, [np.nan, np.nan])
-                    ret = np.array([q]) if not ret.size else np.append(ret, [q], axis=0)
-                else:
-                    ret = np.array([v.qsr]) if not ret.size else np.append(ret, [v.qsr], axis=0)
+                    q = q if len(q) == 4 else np.append(q, [np.nan, np.nan])
+                ret = np.array([q]) if not ret.size else np.append(ret, [q], axis=0)
             rospy.logdebug(foo)
 
         return ret
@@ -139,5 +138,8 @@ class InputBaseAbstractclass(object):
             except KeyError:
                 rospy.logfatal("Unknown QTC type: %s" % qtc_type)
                 return
-            ret.append(self._request_qtc(qsr=qsr, world=world))
+            ret.append(self._request_qtc(qsr=qsr, world=world, qsrs_for=[(elem["agent1"]["name"],elem["agent2"]["name"])]))
         return ret
+
+    def _to_np_array(self, string):
+        return np.fromstring(string.replace('-','-1').replace('+','+1'), dtype=int, sep=',')
