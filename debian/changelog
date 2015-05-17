@@ -1,0 +1,80 @@
+ros-indigo-strands-hri-launch (0.0.13-0trusty) trusty; urgency=high
+
+  * 0.0.12
+  * updated changelogs
+  * Contributors: Jenkins
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Sun, 17 May 2015 00:00:00 -0000
+
+ros-indigo-strands-hri-launch (0.0.12-0trusty) trusty; urgency=high
+
+
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Sun, 10 May 2015 00:00:00 -0000
+
+ros-indigo-strands-hri-launch (0.0.11-0trusty) trusty; urgency=high
+
+
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Fri, 17 Apr 2015 00:00:00 -0000
+
+ros-indigo-strands-hri-launch (0.0.10-0trusty) trusty; urgency=high
+
+
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Fri, 10 Apr 2015 00:00:00 -0000
+
+ros-indigo-strands-hri-launch (0.0.9-0trusty) trusty; urgency=high
+
+
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Fri, 10 Apr 2015 00:00:00 -0000
+
+ros-indigo-strands-hri-launch (0.0.7-0trusty) trusty; urgency=high
+
+
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Mon, 01 Dec 2014 00:00:00 -0000
+
+ros-indigo-strands-hri-launch (0.0.6-0trusty) trusty; urgency=high
+
+
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Fri, 21 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-hri-launch (0.0.5-0trusty) trusty; urgency=high
+
+
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Tue, 11 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-hri-launch (0.0.3-0trusty) trusty; urgency=high
+
+
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Thu, 06 Nov 2014 00:00:00 -0000
+
+ros-indigo-strands-hri-launch (0.0.2-0trusty) trusty; urgency=high
+
+
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Fri, 31 Oct 2014 00:00:00 -0000
+
+ros-indigo-strands-hri-launch (0.0.1-0trusty) trusty; urgency=high
+
+  * Fixing install process and launch file
+    Preparing for release once strands_ui is released.
+  * Prepared strands_hri_launch package for release.
+    Needs paose_extractor package to be moved out of strands_utils
+  * Moved visual_speech script into strands_visualise_speech package
+  * Renaming dependencies: ros_mary_tts is now mary_tts
+  * Added launch file for human aware navigation set-up
+  * Update README.md
+    Added comment to have a look at strands_hri_utils.
+  * Stub readme's
+  * generic launch package for the strands_hri repo containing the launch file for the speech set-up.
+  * Contributors: Christian Dondrup
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Fri, 31 Oct 2014 00:00:00 -0000
+
+
