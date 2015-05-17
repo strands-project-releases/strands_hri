@@ -1,0 +1,12 @@
+Source: ros-indigo-strands-human-following
+Section: misc
+Priority: extra
+Maintainer: Ferdian Jovan <fxj345@cs.bham.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-bayes-people-tracker, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-nav-goals-generator, ros-indigo-rospy, ros-indigo-scitos-ptu, ros-indigo-sensor-msgs, ros-indigo-smach, ros-indigo-smach-ros, ros-indigo-std-msgs, ros-indigo-strands-navigation-msgs, ros-indigo-tf
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-strands-human-following
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-bayes-people-tracker, ros-indigo-geometry-msgs, ros-indigo-nav-goals-generator, ros-indigo-rospy, ros-indigo-scitos-ptu, ros-indigo-sensor-msgs, ros-indigo-smach, ros-indigo-smach-ros, ros-indigo-std-msgs, ros-indigo-strands-navigation-msgs, ros-indigo-tf
+Description: The strands_human_following package
