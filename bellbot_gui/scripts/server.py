@@ -10,14 +10,13 @@ import strands_webserver.page_utils
 import strands_webserver.client_utils
 
 import threading
-import simplejson
+import json
 
 from mongodb_store.message_store import MessageStoreProxy
 
 from os import chdir
 from os.path import join
 
-from bellbot_gui.destination_data import Destination_Data
 from bellbot_action_server.srv import NewTarget, NewTargetRequest
 from bellbot_action_server.msg import BellbotState
 from std_srvs.srv import Empty, EmptyRequest
@@ -66,7 +65,7 @@ class ControlServer(web.application):
         )
 
         self._feedback_msg_store = MessageStoreProxy(collection='bellbot_feedback')
-
+        self._dest_pub = rospy.Publisher('~destination', String, queue_size=1, latch=True)
         rospy.Subscriber("/bellbot_state", BellbotState, self.manage)
         rospy.Subscriber("/bellbot_gui_feedback", String, self.store_feedback)
 
@@ -88,6 +87,8 @@ class ControlServer(web.application):
 
     def manage(self, state):
         rospy.loginfo("STATE: %s" % state.name)
+        if state.goal is not None:
+            self._dest_pub.publish(state.goal)
         try:
             url = "%s%s?destination=%s" % (self.gui_prefix, state.name, state.goal)
             strands_webserver.client_utils.display_url(0, url)
@@ -105,7 +106,7 @@ class ControlServer(web.application):
 class DestinationPage(object):
 
     def __init__(self):
-        self.categories = rospy.get_param('/bellbot_gui/destinations_types', 
+        self.categories = rospy.get_param('/bellbot_gui/destinations_types',
                                           ["department", "person", "office", "Meeting Rooms"])
 
     def get_metadata(self):
@@ -113,7 +114,7 @@ class DestinationPage(object):
         #rospy.wait_for_service('/query_node_metadata')
         try:
             proxy = rospy.ServiceProxy('/query_node_metadata', NodeMetadata)
-            
+
             for c in self.categories:
                 # print "Getting", c
                 map_name = rospy.get_param("/topological_map_name","aaf_predep")
@@ -131,9 +132,9 @@ class DestinationPage(object):
     def GET(self):
         dests = self.get_metadata()
         html_config['dests'] = dests
-        
-        html_config['available_destinations'] = simplejson.dumps(dests.keys()) #[simplejson.dumps(s) for s in dests.keys()]
-        print html_config['available_destinations']
+
+        html_config['available_destinations'] = json.dumps(dests.keys()) #[simplejson.dumps(s) for s in dests.keys()]
+        print "destionations: " + html_config['available_destinations']
         return render.destination()
 
 
