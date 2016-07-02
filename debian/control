@@ -1,0 +1,12 @@
+Source: ros-indigo-strands-hri-launch
+Section: misc
+Priority: extra
+Maintainer: Christian Dondrup <cdondrup@lincoln.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: https://github.com/strands-project/strands_hri
+Standards-Version: 3.9.2
+
+Package: ros-indigo-strands-hri-launch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-pose-extractor, ros-indigo-strands-gazing, ros-indigo-strands-human-aware-navigation
+Description: The strands_hri_launch package
