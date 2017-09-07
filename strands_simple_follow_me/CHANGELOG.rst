@@ -2,6 +2,11 @@
 Changelog for package strands_simple_follow_me
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.0 (2017-09-07)
+------------------
+* changelogs
+* Contributors: Marc Hanheide
+
 0.1.2 (2016-11-03)
 ------------------
 
