@@ -1,3 +1,39 @@
+## strands_hri (kinetic) - 0.2.0-0
+
+The packages in the `strands_hri` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -n -t kinetic -r kinetic strands_hri` on `Thu, 07 Sep 2017 12:29:55 -0000`
+
+These packages were released:
+- `han_action_dispatcher`
+- `hrsi_launch`
+- `hrsi_representation`
+- `hrsi_state_prediction`
+- `hrsi_velocity_costmaps`
+- `strands_gazing`
+- `strands_hri`
+- `strands_hri_launch`
+- `strands_human_aware_navigation`
+- `strands_human_following`
+- `strands_interaction_behaviours`
+- `strands_simple_follow_me`
+- `strands_visualise_speech`
+
+Version of package(s) in repository `strands_hri`:
+
+- upstream repository: https://github.com/strands-project/strands_hri.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.2.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.5`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## strands_hri (indigo) - 0.1.2-0
 
 The packages in the `strands_hri` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --non-interactive -t indigo -r indigo strands_hri` on `Thu, 03 Nov 2016 08:48:07 -0000`
