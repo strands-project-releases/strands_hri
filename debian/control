@@ -1,0 +1,12 @@
+Source: ros-kinetic-strands-human-aware-navigation
+Section: misc
+Priority: extra
+Maintainer: Christian Dondrup <cdondrup@lincoln.ac.uk>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-bayes-people-tracker, ros-kinetic-catkin, ros-kinetic-dwa-local-planner, ros-kinetic-dynamic-reconfigure, ros-kinetic-geometry-msgs, ros-kinetic-message-filters, ros-kinetic-move-base-msgs, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-strands-gazing
+Homepage: https://github.com/strands-project/strands_hri
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-strands-human-aware-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-bayes-people-tracker, ros-kinetic-dwa-local-planner, ros-kinetic-dynamic-reconfigure, ros-kinetic-geometry-msgs, ros-kinetic-message-filters, ros-kinetic-move-base-msgs, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-strands-gazing
+Description: The strands_human_aware_velocity package
