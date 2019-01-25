@@ -1,0 +1,176 @@
+ros-kinetic-strands-gazing (0.2.4-0xenial) xenial; urgency=high
+
+
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Fri, 25 Jan 2019 00:00:00 -0000
+
+ros-kinetic-strands-gazing (0.2.3-0xenial) xenial; urgency=high
+
+
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Fri, 25 Jan 2019 00:00:00 -0000
+
+ros-kinetic-strands-gazing (0.2.2-0xenial) xenial; urgency=high
+
+  * changelogs
+  * Contributors: Marc Hanheide
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Thu, 02 Aug 2018 00:00:00 -0000
+
+ros-kinetic-strands-gazing (0.2.1-0xenial) xenial; urgency=high
+
+  * updated changelogs
+  * Contributors: LCAS build farm
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Thu, 02 Aug 2018 00:00:00 -0000
+
+ros-kinetic-strands-gazing (0.2.0-0xenial) xenial; urgency=high
+
+  * changelogs
+  * changelogs
+  * Adding a sleep in case the transform fails
+    This should fix #149 <https://github.com/strands-project/strands_hri/issues/149> and #150 <https://github.com/strands-project/strands_hri/issues/150>
+  * Contributors: Christian Dondrup, Marc Hanheide
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Thu, 07 Sep 2017 00:00:00 -0000
+
+ros-kinetic-strands-gazing (0.1.2-0xenial) xenial; urgency=high
+
+  * updated changelogs
+  * Contributors: Jenkins
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Thu, 03 Nov 2016 00:00:00 -0000
+
+ros-kinetic-strands-gazing (0.1.1-0xenial) xenial; urgency=high
+
+  * updated changelogs
+  * Contributors: Jenkins
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Sat, 02 Jul 2016 00:00:00 -0000
+
+ros-kinetic-strands-gazing (0.1.0-0xenial) xenial; urgency=high
+
+  * updated changelogs
+  * Contributors: Jenkins
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Wed, 20 Jan 2016 00:00:00 -0000
+
+ros-kinetic-strands-gazing (0.0.13-0xenial) xenial; urgency=high
+
+  * updated changelogs
+  * 0.0.12
+  * updated changelogs
+  * Contributors: Jenkins
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Sun, 17 May 2015 00:00:00 -0000
+
+ros-kinetic-strands-gazing (0.0.12-0xenial) xenial; urgency=high
+
+  * updated changelogs
+  * Contributors: Jenkins
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Sun, 10 May 2015 00:00:00 -0000
+
+ros-kinetic-strands-gazing (0.0.11-0xenial) xenial; urgency=high
+
+  * updated changelogs
+  * Contributors: Jenkins
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Fri, 17 Apr 2015 00:00:00 -0000
+
+ros-kinetic-strands-gazing (0.0.10-0xenial) xenial; urgency=high
+
+  * updated changelogs
+  * Contributors: Jenkins
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Fri, 10 Apr 2015 11:06:00 -0000
+
+ros-kinetic-strands-gazing (0.0.9-0xenial) xenial; urgency=high
+
+  * updated changelogs
+  * Contributors: Jenkins
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Fri, 10 Apr 2015 10:21:00 -0000
+
+ros-kinetic-strands-gazing (0.0.8-0xenial) xenial; urgency=high
+
+
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Thu, 02 Apr 2015 00:00:00 -0000
+
+ros-kinetic-strands-gazing (0.0.7-0xenial) xenial; urgency=high
+
+  * updated changelogs
+  * Contributors: Jenkins
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Mon, 01 Dec 2014 00:00:00 -0000
+
+ros-kinetic-strands-gazing (0.0.6-0xenial) xenial; urgency=high
+
+  * updated changelogs
+  * Contributors: Jenkins
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Fri, 21 Nov 2014 00:00:00 -0000
+
+ros-kinetic-strands-gazing (0.0.5-0xenial) xenial; urgency=high
+
+  * updated changelogs
+  * Contributors: Jenkins
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Tue, 11 Nov 2014 14:00:00 -0000
+
+ros-kinetic-strands-gazing (0.0.4-0xenial) xenial; urgency=high
+
+
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Tue, 11 Nov 2014 12:20:00 -0000
+
+ros-kinetic-strands-gazing (0.0.3-0xenial) xenial; urgency=high
+
+  * Updated changelogs
+  * Contributors: Christian Dondrup
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Thu, 06 Nov 2014 00:00:00 -0000
+
+ros-kinetic-strands-gazing (0.0.2-0xenial) xenial; urgency=high
+
+  * Updated changelogs
+  * Contributors: Christian Dondrup
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Fri, 31 Oct 2014 18:55:00 -0000
+
+ros-kinetic-strands-gazing (0.0.1-0xenial) xenial; urgency=high
+
+  * Created changelogs
+  * Moved utility scripts out of utils into corresponding packages.
+  * Added missing webpage
+  * Prepared strands_gazing for release
+  * moved the sleep() such that it always gets called in the while loop, irrespective of if-statements
+  * move some outputs to debug level.
+  * [strands_gazing]Removed unnecessary subscription to a placeholder topic.
+  * Removed the pose reset in the gaze_at_pose node to not have it spin around if looking to the back.
+  * Bugfix: Needs absolute x value to calculate Tilt using atan2 instead of negative one.
+  * Removing look up tf warning by looking for the right transformation.
+  * trying to prevent some warning while transforming.
+  * Using EyeLids joint state to prevent occasional "blinking".
+  * Changed blink timing to blink every 5 to 20 seconds.
+  * Bugfix: Added missing *_generate_messages_cpp for the action servers.
+  * Using ${catkin_EXPORTED_TARGETS} in all packages for tyhe dependecies.
+  * Now able to look at any given Stamped pose continuously, e.g. /move_base/current_goal
+  * gaze_at_pose subscribes and unsubscribes automatically depending on whether there is in an active goal or not.
+  * Random eyeblinking added
+  * Update README.md
+    Fixing typos
+  * Updated readme with action server info.
+  * Added a README, updated the package.xml, and changed the standard subscription topic to a more generic one.
+  * Merge branch 'not_master' of https://github.com/cdondrup/strands_hri
+  * Added comments and changed info outputs to debug.
+  * The eye movement does not work as inteded and has been removed for the time being.
+  * Combining gazing and velocity in one branch.
+    Adding dependencies to velocity package.
+  * First implementation of a node which focuses a 3d pose with the head. Needs testing and some more functionality.
+  * Contributors: Christian Dondrup, ToMadoRe, Tom Krajnik, cdondrup
+
+ -- Christian Dondrup <cdondrup@lincoln.ac.uk>  Fri, 31 Oct 2014 17:17:00 -0000
+
+
