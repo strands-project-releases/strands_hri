@@ -2,6 +2,9 @@
 Changelog for package strands_human_following
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.4 (2019-01-25)
+------------------
+
 0.2.3 (2019-01-25)
 ------------------
 * genjava fail patch (`#158 <https://github.com/strands-project/strands_hri/issues/158>`_)
